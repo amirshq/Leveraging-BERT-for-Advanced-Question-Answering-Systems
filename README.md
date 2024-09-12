@@ -1,1 +1,3 @@
-test
+This project focuses on developing an advanced question-answering system using BERT (Bidirectional Encoder Representations from Transformers) to enable more accurate and context-aware responses. By fine-tuning BERT on domain-specific datasets, the system is designed to comprehend complex queries and provide relevant answers across diverse industries, improving search accuracy and user experience. The project aims to enhance the efficiency of information retrieval systems by integrating cutting-edge NLP techniques for robust question interpretation and answer generation. 
+
+The project is currently in progress, and the repository will be updated step by step as the development continues.
