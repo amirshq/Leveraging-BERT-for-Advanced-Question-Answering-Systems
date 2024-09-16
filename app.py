@@ -22,3 +22,11 @@ from tqdm.notebook import tqdm
 from torch.nn import functional as F
 from torch.utils.data import Dataset, DataLoader 
 from sklearn.model_selection import GroupKFold
+
+SEED = 2020
+DATA_PATH = '/Users/amirshahcheraghian/Leveraging-BERT-for-Advanced-Question-Answering-Systems/Data/Coleridge Initiative - Show US the Data/'
+DATA_PATH_TRAIN = DATA_PATH + 'train/'
+DATA_PATH_TEST = DATA_PATH + 'test/'
+
+NUM_WORKERS = 4
+VOCABS = {"bert-base-uncased":"/Users/amirshahcheraghian/Leveraging-BERT-for-Advanced-Question-Answering-Systems/Data/Bert Vocabs/bert-base-uncased-vocab.txt",}
