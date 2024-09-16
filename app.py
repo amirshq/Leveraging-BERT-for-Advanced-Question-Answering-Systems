@@ -23,6 +23,7 @@ from torch.nn import functional as F
 from torch.utils.data import Dataset, DataLoader 
 from sklearn.model_selection import GroupKFold
 
+#Initial Configurations
 SEED = 2020
 DATA_PATH = '/Users/amirshahcheraghian/Leveraging-BERT-for-Advanced-Question-Answering-Systems/Data/Coleridge Initiative - Show US the Data/'
 DATA_PATH_TRAIN = DATA_PATH + 'train/'
